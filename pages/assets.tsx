@@ -2,10 +2,9 @@ import Typography from '@mui/material/Typography';
 
 import NavBar from '../components/NavBar'
 
-export default function Home() {
+export default function Assets() {
   return <>
     <NavBar />
-
     <Typography
       variant="h6"
       component="h6"
@@ -16,7 +15,8 @@ export default function Home() {
         fontWeight: 700
       }}
     >
-      Fixed Asset Inventory Count Application
+      Asset Listing
     </Typography>
+
   </>
 }
