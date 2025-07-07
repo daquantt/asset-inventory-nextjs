@@ -91,7 +91,7 @@ function ResponsiveAppBar() {
               {pages.map((page) => (
                 <MenuItem key={page} >
                   <Typography sx={{ textAlign: 'center' }}>
-                    <Link href={page}>
+                    <Link href={`/${page}`}>
                       {capitalize(page)}
                     </Link>
                   </Typography>
@@ -124,7 +124,7 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
                 key={page}
-                href={page}
+                href={`/${page}`}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
