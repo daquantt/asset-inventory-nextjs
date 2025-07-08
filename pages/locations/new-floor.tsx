@@ -2,9 +2,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
 import NavBar from '../../components/NavBar'
-import NewCategoryForm from '@/components/NewCategoryForm';
+import NewFloorForm from '@/components/NewFloorForm';
 
-export default function NewCategory() {
+export default function NewFloor() {
   return <>
     <NavBar />
     <Container maxWidth="lg" component="main">
@@ -18,10 +18,10 @@ export default function NewCategory() {
           fontWeight: 700
         }}
         >
-        Add New Category
+        Locations - New Floor
       </Typography>
+      <NewFloorForm />
 
-      <NewCategoryForm />
     </Container>
   </>
 }

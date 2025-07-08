@@ -17,10 +17,9 @@ export default function Categories() {
         sx={{
           textAlign: 'center',
           my: 3, 
-          fontFamily: 'monospace',
           fontWeight: 700
         }}
-        >
+      >
         Asset Categories
       </Typography>
 
