@@ -1,31 +1,37 @@
 ## Build Navigation Bar
+- [x] Responsive Navbar
+- [ ] Add dropdowns to nav links
 
 
+## Build Assets Pages
+- [x] Create index Page
+- [ ] Do index page asset table listing 
+- [ ] Do search feature on index page
+- [ ] Do NewAssetPage
+- [ ] Do EditAssetPage
+- [ ] Do ViewAssetPage
+- [ ] API for all assets
+- [ ] API for CRUD asset
 
-## Build Assets Page
-Create Page
 
-DONE
+## Build Categories Pages
+- [x] Do CategoriesPage(index)
+- [x] Do category table listing
+- [x] Do NewCategoryPage
+- [ ] Do EditCategoryPage
+- [ ] Do ViewCategoryPage
+- [ ] API for all categories
+- [ ] API for CRUD category
 
 
-## Build Categories Page
-Create NewCategoryPage
+## Build Locations Pages
+- [x] Create LocationsPage(index)
+- [x] Create location table listing 
+- [x] Create NewLocationPage
+- [ ] Create EditLocationPage
+- [ ] Create ViewLocationPage
+- [ ] API for all locations
+- [ ] API for CRUD location
 
-Create EditCategoryPage
-
-Create ViewCategoryPage
-
-API for all categories
-
-API for CRUD category
-
-#### DONE
-Create CategoriesPage
-Create category table listing 
-
-## Build Locations Page
-Create Page
-
-DONE
 
 
