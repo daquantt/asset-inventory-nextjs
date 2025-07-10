@@ -27,7 +27,7 @@ export default function Home() {
           mb: 6, 
         }}
         >
-        Ditch the spreadsheets. Get instant clarity on all your equipment, tools, and tech. Your assets, organized like never before. Fast setup, fun to use, and totally hassle-free. Let's simplify inventory together.
+        Ditch the spreadsheets. Get instant clarity on all your equipment, tools, and tech. Your assets, organized like never before. Fast setup, fun to use, and totally hassle-free. Let&apos;s simplify inventory together.
       </Typography>
       <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
         <Button variant='contained' href='/assets' >
