@@ -18,7 +18,7 @@ import ConstructionIcon from '@mui/icons-material/Construction';
 
 import capitalize from '@/utils/functions/Capitalise';
 
-const pages = ['home', 'assets', 'categories', 'locations'];
+const pages = ['home', 'assets', 'counts', 'categories', 'locations'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {

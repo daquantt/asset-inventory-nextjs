@@ -1,7 +1,8 @@
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 import NavBar from '../../components/NavBar'
-import { Box, Container } from '@mui/material';
 import AssetTable from '@/components/AssetTable';
 
 export default function Assets() {
