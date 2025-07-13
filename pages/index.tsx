@@ -14,7 +14,7 @@ export default function Home() {
         component="h2"
         sx={{
           textAlign: 'center',
-          my: 3, 
+          mt: 8, 
           fontWeight: 700
         }}
         >
@@ -24,13 +24,13 @@ export default function Home() {
         component="p"
         sx={{
           textAlign: 'center',
-          mb: 6, 
+          my: 3, 
         }}
         >
-        Ditch the spreadsheets. Get instant clarity on all your equipment, tools, and tech. Your assets, organized like never before. Fast setup, fun to use, and totally hassle-free. Let&apos;s simplify inventory together.
+        Ditch the paper and spreadsheets. Get instant clarity on all your equipment, tools, and tech. Your assets, organized like never before. Fast setup, fun to use, and totally hassle-free. Let&apos;s simplify inventory together.
       </Typography>
-      <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
-        <Button variant='contained' href='/assets' >
+      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 6 }}>
+        <Button variant='contained' size='large' href='/assets' >
           Get Started Now
         </Button>
       </Box>

@@ -32,6 +32,5 @@ export default function Categories() {
         <CategoryTable />
       </Box>
     </Container>
-
   </>
 }
