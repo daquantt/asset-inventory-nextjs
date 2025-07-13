@@ -41,7 +41,7 @@ export default function AssetTable() {
         </TableHead>
         <TableBody>
           {rows.map((row) => (
-            <AssetTableRow asset={row} />
+            <AssetTableRow key={row.asset_id} asset={row} />
           ))}
         </TableBody>
       </Table>
