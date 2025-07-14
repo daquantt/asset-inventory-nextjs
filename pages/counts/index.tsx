@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 import NavBar from '../../components/NavBar'
-import AssetTable from '@/components/AssetTable';
 
 export default function Counts() {
   return <>

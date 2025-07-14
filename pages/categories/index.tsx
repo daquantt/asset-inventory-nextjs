@@ -4,7 +4,25 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 import NavBar from '../../components/NavBar'
-import CategoryTable from '@/components/CategoryTable';
+import AssetCategoryList from '@/components/assetCategories/AssetCategoryList';
+
+function createData(
+  name: string,
+  code: string,
+  life: number,
+  description?: string,
+) {
+  return { name, life, code, description };
+}
+
+const rows = [
+  createData('Building', 'BLDG', 600, 'Buildings owned by the company'),
+  createData('Machinery & Equipment', 'MACH', 60),
+  createData('Computer Hardware', 'HW', 36),
+  createData('Computer Software', 'SW', 36),
+  createData('Furniture', 'FURN', 60),
+  createData('Motor Vehicles', 'MV', 48),
+];
 
 export default function Categories() {
   return <>
@@ -23,14 +41,15 @@ export default function Categories() {
         Asset Categories
       </Typography>
 
-      <Box sx={{ maxWidth: 650, mx: 'auto' }}>
+      <Box>
         <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
           <Button variant='contained' color='success' href='/categories/new-category' >
             New Category
           </Button>
-        </Box>
-        <CategoryTable />
+        </Box>        
       </Box>
+
+      <AssetCategoryList categories={rows}/>
     </Container>
   </>
 }
