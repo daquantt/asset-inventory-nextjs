@@ -5,7 +5,13 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function AssetCategoryItem({category}) {
+import { Category } from '@/types/category';
+
+interface AssetCategoryItemProps {
+  category: Category
+}
+
+export default function AssetCategoryItem({category}: AssetCategoryItemProps) {
   return (
     <Card sx={{ height: '100%' }}>
       <CardContent>
