@@ -4,11 +4,12 @@ import Typography from "@mui/material/Typography";
 import AssetCategoryItem from "./AssetCategoryItem";
 import { Category } from '@/types/category';
 
-interface Props {
+// define named prop type for categories array
+interface CategoriesPropType {
   categories: Category[]
 }
 
-export default function AssetCategoryList({categories}: Props) {
+export default function AssetCategoryList({categories}: CategoriesPropType) {
   return <Grid 
     container
     direction="row"

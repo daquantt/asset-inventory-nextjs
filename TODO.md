@@ -5,7 +5,7 @@
 
 ## Build Assets Pages
 - [x] Create index Page
-- [ ] Do index page asset table listing 
+- [x] Do index page asset table listing 
 - [ ] Do search feature on index page
 - [ ] Do NewAssetPage
 - [ ] Do EditAssetPage
@@ -34,4 +34,11 @@
 - [ ] API for CRUD location
 
 
-
+## Build Counts Pages
+- [x] Create CountsPage(index)
+- [ ] Create count table listing 
+- [ ] Create NewCountPage
+- [ ] Create EditCountPage
+- [ ] Create ViewCountPage
+- [ ] API for all counts
+- [ ] API for CRUD count

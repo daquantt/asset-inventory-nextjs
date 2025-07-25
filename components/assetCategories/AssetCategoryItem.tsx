@@ -7,14 +7,21 @@ import Typography from '@mui/material/Typography';
 
 import { Category } from '@/types/category';
 
-interface AssetCategoryItemProps {
+// define a named prop type 
+interface CategoryPropType {
   category: Category
 }
 
-export default function AssetCategoryItem({category}: AssetCategoryItemProps) {
+// use named prop type for props
+export default function AssetCategoryItem({category}: CategoryPropType) {
   return (
-    <Card sx={{ height: '100%' }}>
-      <CardContent>
+    <Card sx={{ 
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column'
+      }}
+    >
+      <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="div">
           {category.name}
         </Typography>
@@ -30,7 +37,7 @@ export default function AssetCategoryItem({category}: AssetCategoryItemProps) {
           {category.description}
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{ p: 2 }}>
         <Button variant='contained' size="small">Edit</Button>
         <Button variant='contained' color='error' size="small">Delete</Button>
       </CardActions>
